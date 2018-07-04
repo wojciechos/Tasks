@@ -1,9 +1,9 @@
 ﻿using NUnit.Framework;
 
-namespace UnitTests
+namespace Tasks
 {
     [TestFixture]
-    public class UnitTest1
+    public class UnitTests
     {
         [TestCase(-2, false)]
         [TestCase(0, false)]

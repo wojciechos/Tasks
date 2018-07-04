@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace UnitTests
+namespace Tasks
 {
     internal class Task3
     {

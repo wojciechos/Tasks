@@ -1,4 +1,4 @@
-﻿namespace UnitTests
+﻿namespace Tasks
 {
     public class Task1
     {

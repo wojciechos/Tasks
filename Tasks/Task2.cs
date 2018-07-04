@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UnitTests
+namespace Tasks
 {
     internal class Task2
     {
