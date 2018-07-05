@@ -14,36 +14,10 @@ namespace BookshelfApi.Controllers
         public BookController(BookContext context)
         {
             _context = context;
-
-            if (_context.BookItems.Any()) return;
-
-            _context.BookItems.AddRange(new Book
-            {
-                Title = "Ania z zielonego wzgórza",
-                Author = "Paweł Mączas",
-                Isbn = "123123",
-                IsLoaned = false,
-            },
-            new Book()
-            {
-                Title = "Supe tytuł",
-                Author = "Adam Janos",
-                Isbn = "2342342",
-                IsLoaned = false,
-            },
-            new Book()
-            {
-                Title = "Sowa",
-                Author = "Anna Kukiełka",
-                Isbn = "345345",
-                IsLoaned = true,
-            });
-
-            _context.SaveChanges();
         }
 
         [HttpGet("api/[controller]")]
-        public ActionResult<List<Book>> GetAll()
+        public ActionResult<List<Book>> FetchBooks()
         {
             return _context.BookItems.ToList();
         }

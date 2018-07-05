@@ -6,7 +6,7 @@ namespace Tasks
     {
         public static string ReplicateText(string text, int replicateNumber)
         {
-            return string.Concat(Enumerable.Repeat(text, replicateNumber));
+            return replicateNumber < 0 ? null : string.Concat(Enumerable.Repeat(text, replicateNumber));
         }
     }
 }

@@ -6,9 +6,8 @@ namespace BookshelfApi.Models
     {
         public BookContext(DbContextOptions options)
             : base(options)
-        {
-        }
+        { }
 
-        public DbSet<Book> BookItems { get; set; }
+        public virtual DbSet<Book> BookItems { get; set; }
     }
 }
