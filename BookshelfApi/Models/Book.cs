@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BookshelfApi.Models
+namespace BookShelfApi.Models
 {
     public class Book : IEquatable<Book>
     {

@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using BookshelfApi.Controllers;
-using BookshelfApi.Models;
+using BookShelfApi.Controllers;
+using BookShelfApi.Models;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 
-namespace BookshelfApiTests
+namespace BookShelfApiTests
 {
     public class BookControllerTests
     {

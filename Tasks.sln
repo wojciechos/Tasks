@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookshelfApi", "BookshelfApi\BookshelfApi.csproj", "{774E5809-2089-418F-8D7B-8D574F6173DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShelfApi", "BookshelfApi\BookShelfApi.csproj", "{774E5809-2089-418F-8D7B-8D574F6173DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{722B5220-C67E-4587-9CB6-B6196F498CA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookshelfApiTests", "BookshelfApiTests\BookshelfApiTests.csproj", "{B19215B7-765D-45CA-8A63-5447D2F58381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShelfApiTests", "BookshelfApiTests\BookShelfApiTests.csproj", "{B19215B7-765D-45CA-8A63-5447D2F58381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookshelfApi\BookshelfApi.csproj" />
+    <ProjectReference Include="..\BookshelfApi\BookShelfApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>

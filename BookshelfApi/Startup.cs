@@ -1,10 +1,10 @@
-﻿using BookshelfApi.Models;
+﻿using BookShelfApi.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace BookshelfApi
+namespace BookShelfApi
 {
     public class Startup
     {
